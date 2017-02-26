@@ -11,7 +11,20 @@ import UIKit
 class ViewController: UIViewController {
     
     private var userIsTyping = false
+    
+    var savedProgram: CalculatorBrain.PropertyList?
 
+    @IBAction func save() {
+        savedProgram = brain.program
+    }
+    
+    @IBAction func restore() {
+        if savedProgram != nil {
+            brain.program = savedProgram!
+            displayValue = brain.result
+        }
+    }
+    
     @IBOutlet private weak var display: UILabel!
     
     @IBAction private func touchDigit(_ sender: UIButton) {
