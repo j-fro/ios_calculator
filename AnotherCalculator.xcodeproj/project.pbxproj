@@ -12,6 +12,7 @@
 		10D84DA31E6218DD00441EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D84DA11E6218DD00441EC0 /* Main.storyboard */; };
 		10D84DA51E6218DD00441EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D84DA41E6218DD00441EC0 /* Assets.xcassets */; };
 		10D84DA81E6218DD00441EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D84DA61E6218DD00441EC0 /* LaunchScreen.storyboard */; };
+		10D84DB01E621D3300441EC0 /* calculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D84DAF1E621D3300441EC0 /* calculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		10D84DA41E6218DD00441EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10D84DA71E6218DD00441EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10D84DA91E6218DD00441EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10D84DAF1E621D3300441EC0 /* calculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				10D84D9D1E6218DD00441EC0 /* AppDelegate.swift */,
 				10D84D9F1E6218DD00441EC0 /* ViewController.swift */,
 				10D84DA11E6218DD00441EC0 /* Main.storyboard */,
+				10D84DAF1E621D3300441EC0 /* calculatorBrain.swift */,
 				10D84DA41E6218DD00441EC0 /* Assets.xcassets */,
 				10D84DA61E6218DD00441EC0 /* LaunchScreen.storyboard */,
 				10D84DA91E6218DD00441EC0 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D84DB01E621D3300441EC0 /* calculatorBrain.swift in Sources */,
 				10D84DA01E6218DD00441EC0 /* ViewController.swift in Sources */,
 				10D84D9E1E6218DD00441EC0 /* AppDelegate.swift in Sources */,
 			);
